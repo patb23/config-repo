@@ -1,0 +1,6 @@
+ajdbc:
+  datasource:
+    driver-class-name: com.zaxxer.hikari.HikariDataSource
+    username: qauser
+    password: qapassword
+    url: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=dbhost)(PORT=1542))(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=DB_SERVICE)))
